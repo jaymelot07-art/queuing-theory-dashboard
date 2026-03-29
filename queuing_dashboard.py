@@ -25,4 +25,4 @@ def update_graph(n):
     return {'data': [], 'layout': {}}
 
 if __name__ == '__main__':
-    dapp.run_server(debug=True)
+    dapp.run(debug=True)
