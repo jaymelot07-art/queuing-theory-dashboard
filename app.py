@@ -48,4 +48,4 @@ def optimize_staffing(selected_segment):
     return f'Required staff for {selected_segment}: {required_staff:.2f}'
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
